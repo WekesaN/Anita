@@ -2,3 +2,18 @@
   background-image: url("../css/img/landing.jpg");
   text-align: center;
 }
+.party {
+  height: 100px;
+  background-color: #F15A29;
+}
+.happy {
+  height: 100px;
+}
+#subscribe {
+  background-image: url("../css/img/subscribe.jpg");
+  text-align: center;
+}
+#foodsbg {
+  background-image: url("../css/img/foodsBg.jpg");
+  height:  599 px;
+}
