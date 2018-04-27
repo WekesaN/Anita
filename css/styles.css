@@ -2,18 +2,144 @@
   background-image: url("../css/img/landing.jpg");
   text-align: center;
 }
+.foodalign {
+  text-align: center;
+  color: #F15A29;
+}
+content:"\e092";
+.boder {
+  border-top: 10px;
+  box-shadow: 10px;
+  border-left-color: #F15A29;
+}
 .party {
   height: 100px;
   background-color: #F15A29;
+  text-align: center;
+}
+.font {
+  color: red;
+}
+.btn {
+  border: 4px;
+  width: 200px;
+  height: 50px;
+  background-color: #fcffff;
+  border: 1.2px solid #fcffff;
+  border-color: #dd430b;
 }
 .happy {
   height: 100px;
+  text-align: center;
 }
 #subscribe {
   background-image: url("../css/img/subscribe.jpg");
   text-align: center;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
 }
 #foodsbg {
   background-image: url("../css/img/foodsBg.jpg");
   height:  599 px;
+}
+.hover:hover{
+  color: black;
+}
+#land{
+  position: absolute;
+  bottom: 0;
+  /* background: rgba(0, 0, 0, 0.5); */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  hover: black;
+  font-size: 40px;
+}
+#land:hover;{
+  color: black;
+}
+#land1{
+  position: absolute;
+  bottom: 0;
+  /* background: rgba(0, 0, 0, 0.5); */
+  color: white;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+.color {
+  color: solid white;
+}
+#em {
+  height: 40px;
+  color: white;
+  width: 400px;
+  background-color: rgba(176, 174, 174, 0.35);
+}
+#btn {
+  background-color: #F15A29;
+  color: white;
+  height: 40px;
+  width: 150;
+}
+.below {
+  background-color: #F15A29;
+  height: 300px;
+  padding-top: 20px;
+}
+#no {
+  padding: 0px;
+  margin: 0px;
+}
+.active {
+  background-color: grey;
+}
+.well {
+  border-right: 10px;
+}
+.color {
+  color: white;
+}
+.bar {
+  /* float: left;
+  width: 10px;
+  height: inherit; */
+  content:"\e236";
+}
+.glyphicon glyphicon-menu-hamburger {
+  width: 20px;
+  height: 20px;
+}
+.text {
+  text-align: right;
+}
+.shad{
+  box-shadow: 2px, 2px, 2px, 2px;
+}
+.bg {
+  background-color: #a8a8a8;
+}
+.footer {
+  text-align: center;
+}
+.ou {
+  text-align: center;
+}
+.our {
+  color: #F15A29;
+  text-align: center;
+}
+#left {
+  text-align: left;
+}
+#right {
+  text-align: right;
+  padding-top: 15px;
+}
+.panel-info {
+  padding-left: 20px;
+  width: 1000px;
+  align-self: center;
 }
