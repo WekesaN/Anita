@@ -25,6 +25,9 @@ content:"\e092";
     width: 100%;
   }
 }
+#gly {
+  display: none;
+}
 .font {
   color: red;
 }
@@ -38,6 +41,14 @@ content:"\e092";
 }
 .ar {
   color: #dd430b;
+}
+.arr2{
+  color: red;
+  float: right;
+  margi: 100px;
+}
+.arr1 {
+  color: red;
 }
 .arr {
   color: #dd430b;
