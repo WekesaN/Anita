@@ -34,7 +34,15 @@ content:"\e092";
   height: 50px;
   background-color: #fcffff;
   border: 1.2px solid #fcffff;
-  border-color: #dd430b;
+  border-color: black;
+}
+.ar {
+  color: #dd430b;
+}
+.arr {
+  color: #dd430b;
+  width: 100px;
+  height: 500px;
 }
 .happy {
   height: 100px;
@@ -44,43 +52,29 @@ content:"\e092";
   background-image: url("../css/img/subscribe.jpg");
   text-align: center;
   padding-bottom: 200px;
-<<<<<<< HEAD
-  background-repeat: no-repeat;
-=======
->>>>>>> 4d642ccfbc1b38de881e150ae64bf679180605bf
+
 }
 #foodsbg {
   background-image: url("../css/img/foodsBg.jpg");
   height:  599 px;
 }
-<<<<<<< HEAD
-.hover:hover{
-  color: black;
-}
-=======
->>>>>>> 4d642ccfbc1b38de881e150ae64bf679180605bf
-#land{
-  position: absolute;
-  bottom: 0;
-  /* background: rgba(0, 0, 0, 0.5); */
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-  text-align: center;
-<<<<<<< HEAD
+
   hover: black;
   font-size: 40px;
 }
 #land:hover;{
   color: black;
 }
-#land1{
+.hov:hover{
+  color:
+}
+#land{
   position: absolute;
   bottom: 0;
   /* background: rgba(0, 0, 0, 0.5); */
   color: white;
   width: 100%;
-  padding: 20px;
+  padding: 90px;
   text-align: center;
   font-size: 40px;
 }
@@ -181,7 +175,8 @@ content:"\e092";
   width: 1000px;
   align-self: center;
 }
-=======
-  font-size: 40px;
+#land:hover{
+  opacity: 0.4;
+  color: black;
+  background-color: white;
 }
->>>>>>> 4d642ccfbc1b38de881e150ae64bf679180605bf

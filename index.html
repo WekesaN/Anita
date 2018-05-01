@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-     <link href="css/styles.css" rel="stylesheet" type="text/css">
-      <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="css/styles.css" type="text/css">
+      <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script src="js/bootsrap.js"></script>
       <script src="js/scripts.js"></script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118401808-1"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-118401808-1');
+    </script>
+
       <link href="https://www.google.com/fonts">
     <meta charset="utf-8">
     <title>ANITA'S KITCHEN</title>
@@ -29,21 +40,21 @@
       </div>
       <div class="hover">
       <div class="col-md-3">
-        <img src="css/img/breakfast.jpg">
+        <img class="hov" src="css/img/breakfast.jpg">
         <div id="land">
             Breakfast
           </div>
       </div>
       <div class="col-md-3">
-        <img src="css/img/lunch.jpg">
+        <img class="hov" src="css/img/lunch.jpg">
         <div id="land">
             Lunch
           </div>
       </div>
       <div class="col-md-3">
-        <img src="css/img/dinner.jpg">
+        <img class="hov" src="css/img/dinner.jpg">
         <div id="land">
-            DInner
+            Dinner
           </div>
       </div>
       </div>
@@ -71,7 +82,7 @@
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-           <button type="button" class="btn"><span class="font">VIEW GALLERY</span> <i class="glyphicon glyphicon-arrow-right"></i></button>
+           <button type="button" style="border-color: #dd430b" class="btn"><span class="font">VIEW GALLERY</span><strong class="arr">→</strong></button>
         </div></br>
           </div>
         <div class="row">
@@ -83,8 +94,13 @@
                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
                  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<<<<<<< HEAD
                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboum.</p>
                  <button type="button" class="btn"><span class="font">VIEW GALLERY</span> <i class="glyphicon glyphicon-arrow-right"></i></button>
+=======
+                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                 <button type="button" style="border-color: #dd430b" class="btn"><span class="font">VIEW GALLERY</span><strong class="arr">→</strong></button>
+>>>>>>> master
           </div>
           </div>
           <div class="row">
@@ -150,11 +166,13 @@
               <p><strong>George Richard</strong></p>
               <p>Great food! Menu is awesome, these foods are not only great but</p>
               <p>also in the right price, i'll highly recommend them :)</p>
-              <i class="glyphicon glyphicon-menu-right"></i>
+              <!-- <i class="glyphicon glyphicon-menu-right"></i> -->
+              <strong class="ar"> < </strong>
               <img src="css/img/p1.png">
               <img src="css/img/p2.png">
               <img src="css/img/p3.png">
-              <i class="glyphicon glyphicon-menu-right"></i>
+              <strong class="ar"> > </strong>
+              <!-- <i class="glyphicon glyphicon-menu-right"></i> -->
               </div>
             </div>
             <div text-align="center" class="col-md-6">
