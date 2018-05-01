@@ -36,6 +36,9 @@ content:"\e092";
   border: 1.2px solid #fcffff;
   border-color: #dd430b;
 }
+.ar {
+  color: #dd430b;
+}
 .happy {
   height: 100px;
   text-align: center;
