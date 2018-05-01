@@ -34,10 +34,15 @@ content:"\e092";
   height: 50px;
   background-color: #fcffff;
   border: 1.2px solid #fcffff;
-  border-color: #dd430b;
+  border-color: black;
 }
 .ar {
   color: #dd430b;
+}
+.arr {
+  color: #dd430b;
+  width: 100px;
+  height: 500px;
 }
 .happy {
   height: 100px;
